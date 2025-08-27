@@ -358,8 +358,8 @@ namespace C44_G03_advanced04
             //You have a sorted set , the user will enter an integer target, find all elements that are greater than target and add them in the list.
 
             //SortedSet<int> ints = [1, 2, 3, 4, 5, 6, 7, 8, 9];
-                
-              
+
+
 
             //List<int> greatnumber = new List<int>();
             //Console.WriteLine("Enter target number");
@@ -386,6 +386,30 @@ namespace C44_G03_advanced04
 
 
 
+            #region Q14
+            //You have a sorted list with integer values, find all the keys associated with even values.
+           // SortedList sl = new SortedList()
+        //{
+        //    {1, 11},
+        //    {2, 20},
+        //    {3, 33},
+        //    {4, 40},
+        //    {5, 55}
+        //};
+
+        //    Console.WriteLine("Keys with even values:");
+        //    foreach (DictionaryEntry entry in sl)
+        //    {
+        //        if (entry.Value is not null and int value && value % 2 == 0)
+        //        {
+
+        //            Console.WriteLine(entry.Key);
+        //        }
+
+        //    }
+                
+
+                #endregion
 
 
 
@@ -398,7 +422,11 @@ namespace C44_G03_advanced04
 
 
 
-        }
+
+
+
+
+            }
 
 
 
