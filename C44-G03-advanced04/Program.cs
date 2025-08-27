@@ -1,4 +1,4 @@
-﻿using Microsoft.VisualBasic;
+﻿
 using System.Diagnostics.Metrics;
 
 namespace C44_G03_advanced04
@@ -99,6 +99,50 @@ namespace C44_G03_advanced04
             #endregion
 
 
+
+            #region Q5
+
+            //Given an array of integers, check if the array contains any duplicates.
+            //int[] arr = { 1, 2, 3, 4, 5, 2 };
+
+            //HashSet<int> hash = new HashSet<int>();
+            //bool hasDuplicate = false;
+
+            //foreach (int num in arr)
+            //{
+            //    if (hash.Contains(num))
+            //    {
+            //        hasDuplicate = true;
+            //        break;
+            //    }
+            //    else
+            //    {
+            //        hash.Add(num);
+            //    }
+            //}
+
+            //if (hasDuplicate)
+            //    Console.WriteLine("Array contains duplicates.");
+            //else
+            //    Console.WriteLine("No duplicates found.");
+
+            #endregion
+
+
+
+
+
+
+
+
+
+
         }
+
+
+
+
+
     }
+    
 }
