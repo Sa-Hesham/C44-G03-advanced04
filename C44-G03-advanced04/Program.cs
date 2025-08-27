@@ -305,7 +305,7 @@ namespace C44_G03_advanced04
             //HashSet<int> set2 = new HashSet<int>() { 3, 4, 5, 6 };
             //HashSet<int> result = new HashSet<int>(set1);
 
-           
+
             //result.UnionWith(set2);
 
             //foreach (int num in result)
@@ -322,6 +322,43 @@ namespace C44_G03_advanced04
 
 
             #endregion
+
+
+
+            #region Q12
+
+            //You have a dictionary with string keys, the user will enter targetChar , count how many keys start with this targetChar.
+            Dictionary<string, int> dict = new()
+                {
+                    { "apple", 1 },
+                    { "animal", 2 },
+                    { "airport", 3 }
+                };
+
+            Console.WriteLine("pleace  enter the char ");
+           
+            char input =  Console.ReadLine()![0];
+            int count = 0;  
+
+            foreach (var c in dict.Keys) {
+
+                if (c.StartsWith(input.ToString(), StringComparison.OrdinalIgnoreCase))
+                    count++;
+            
+            }
+
+            Console.WriteLine(count);
+
+            #endregion
+
+
+
+
+
+
+
+
+
 
 
 
