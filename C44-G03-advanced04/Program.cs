@@ -251,7 +251,7 @@ namespace C44_G03_advanced04
             #endregion
 
             #region Q9
-           // You have a list of integers with possible duplicates, create a HashSet that contains only unique values.
+            // You have a list of integers with possible duplicates, create a HashSet that contains only unique values.
 
             //List<int> list = [1,2,3,4,5,6,6,7,7,9,30,34,32,12];
             //HashSet<int> ints = new HashSet<int>(list);
@@ -260,6 +260,42 @@ namespace C44_G03_advanced04
             //    Console.WriteLine(i + " ");
             //}
             #endregion
+
+
+            #region Q10
+
+           // You have a hashtable with unique values, create a new hashtable where the keys and values are swapped.
+
+    
+            //Hashtable  original = new() {
+
+
+            //    {1,"sayed" },
+            //    {2,"hesham" },
+            //    {3,"ahmed" }
+            
+            
+            //};
+
+            //Hashtable swapped = new();
+
+            //foreach (DictionaryEntry item in original)
+            //{
+            //    swapped[item.Value!]=item.Key;
+            
+            //}
+
+            //foreach (DictionaryEntry item in swapped)
+            //{
+            //    Console.WriteLine(item + "");
+            //}
+
+            #endregion
+
+
+
+
+
 
         }
 
