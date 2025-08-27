@@ -2,8 +2,10 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Diagnostics.Metrics;
 using System.Runtime.Intrinsics.X86;
+using System.Xml;
 using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace C44_G03_advanced04
@@ -236,7 +238,7 @@ namespace C44_G03_advanced04
 
             //        listnumbers.Add(i);
             //    }
-            
+
             //}
 
             //foreach (int x in listnumbers) {
@@ -248,7 +250,16 @@ namespace C44_G03_advanced04
 
             #endregion
 
+            #region Q9
+           // You have a list of integers with possible duplicates, create a HashSet that contains only unique values.
 
+            //List<int> list = [1,2,3,4,5,6,6,7,7,9,30,34,32,12];
+            //HashSet<int> ints = new HashSet<int>(list);
+            //foreach (var i in ints) {
+
+            //    Console.WriteLine(i + " ");
+            //}
+            #endregion
 
         }
 
