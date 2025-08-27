@@ -1,6 +1,9 @@
 ﻿
+using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Diagnostics.Metrics;
+using System.Runtime.Intrinsics.X86;
 
 namespace C44_G03_advanced04
 {
@@ -181,6 +184,41 @@ namespace C44_G03_advanced04
             //}
 
             //student.Remove(student3);
+            #endregion
+
+
+
+            #region Q7
+            //Create an employee directory where employee IDs(int) are keys and employee names(string) are values. 
+            //    Use a SortedList to manage and retrieve employees in order of their IDs.
+
+            //SortedList<int, string> employees = new SortedList<int, string>();
+            //employees.Add(104, "Helmy");
+            //employees.Add(102, "Mohamed");
+            //employees.Add(103, "Ali");
+
+            //Console.WriteLine("Employee Directory (Sorted by ID):");
+            //foreach (var emp in employees)
+            //{
+            //    Console.WriteLine($"ID: {emp.Key}, Name: {emp.Value}");
+            //}
+
+      
+            //Console.WriteLine("\nRetrieve Employee with ID 102:");
+            //if (employees.ContainsKey(102))
+            //{
+            //    Console.WriteLine($"ID: 102, Name: {employees[102]}");
+            //}
+
+  
+            //Console.WriteLine("Removing employee with ID 103...");
+            //employees.Remove(103);
+
+            //Console.WriteLine("\nUpdated Employee Directory:");
+            //foreach (var emp in employees)
+            //{
+            //    Console.WriteLine($"ID: {emp.Key}, Name: {emp.Value}");
+            //}
             #endregion
 
 
