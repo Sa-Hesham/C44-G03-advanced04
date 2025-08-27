@@ -6,6 +6,7 @@ using System.ComponentModel;
 using System.Diagnostics.Metrics;
 using System.Runtime.Intrinsics.X86;
 using System.Xml;
+using System.Xml.Linq;
 using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace C44_G03_advanced04
@@ -264,17 +265,17 @@ namespace C44_G03_advanced04
 
             #region Q10
 
-           // You have a hashtable with unique values, create a new hashtable where the keys and values are swapped.
+            // You have a hashtable with unique values, create a new hashtable where the keys and values are swapped.
 
-    
+
             //Hashtable  original = new() {
 
 
             //    {1,"sayed" },
             //    {2,"hesham" },
             //    {3,"ahmed" }
-            
-            
+
+
             //};
 
             //Hashtable swapped = new();
@@ -282,7 +283,7 @@ namespace C44_G03_advanced04
             //foreach (DictionaryEntry item in original)
             //{
             //    swapped[item.Value!]=item.Key;
-            
+
             //}
 
             //foreach (DictionaryEntry item in swapped)
@@ -291,6 +292,38 @@ namespace C44_G03_advanced04
             //}
 
             #endregion
+
+
+
+            #region Q11
+
+
+            //Find the union of two sets, returning the unique elements from both sets.
+
+
+            //HashSet<int> set1 = new HashSet<int>() { 1, 2, 3, 4 };
+            //HashSet<int> set2 = new HashSet<int>() { 3, 4, 5, 6 };
+            //HashSet<int> result = new HashSet<int>(set1);
+
+           
+            //result.UnionWith(set2);
+
+            //foreach (int num in result)
+            //{
+            //    Console.Write(num + " ");
+            //}
+
+
+
+
+
+
+
+
+
+            #endregion
+
+
 
 
 
