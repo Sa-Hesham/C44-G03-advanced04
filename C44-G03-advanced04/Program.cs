@@ -4,6 +4,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Diagnostics.Metrics;
 using System.Runtime.Intrinsics.X86;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace C44_G03_advanced04
 {
@@ -203,14 +204,14 @@ namespace C44_G03_advanced04
             //    Console.WriteLine($"ID: {emp.Key}, Name: {emp.Value}");
             //}
 
-      
+
             //Console.WriteLine("\nRetrieve Employee with ID 102:");
             //if (employees.ContainsKey(102))
             //{
             //    Console.WriteLine($"ID: 102, Name: {employees[102]}");
             //}
 
-  
+
             //Console.WriteLine("Removing employee with ID 103...");
             //employees.Remove(103);
 
@@ -222,7 +223,30 @@ namespace C44_G03_advanced04
             #endregion
 
 
+            #region Q8
 
+            //Given an array of integers from 1 to N with some numbers missing, find the missing numbers.
+            //int size = 5;
+            //int[] arr = { 1, 3, 4 };
+            //HashSet<int> missing = new (arr);
+            //List <int> listnumbers = new List <int>();
+            //for (int i = 1; i <= size; i++) {
+            //    if (!missing.Contains(i))
+            //    {
+
+            //        listnumbers.Add(i);
+            //    }
+            
+            //}
+
+            //foreach (int x in listnumbers) {
+            //    Console.WriteLine($"{x}  ");
+
+            //}
+
+            //Console.WriteLine(string.Join(",", listnumbers));
+
+            #endregion
 
 
 
