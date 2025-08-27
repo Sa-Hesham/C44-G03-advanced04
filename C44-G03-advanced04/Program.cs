@@ -1,4 +1,5 @@
 ﻿
+using System.Collections.Generic;
 using System.Diagnostics.Metrics;
 
 namespace C44_G03_advanced04
@@ -131,6 +132,56 @@ namespace C44_G03_advanced04
 
 
 
+            #region Q6
+            //Implement a SortedDictionary that stores student IDs(int) and their names(string).
+            //    Perm operations like adding, removing, and retrieving student names.
+
+            //Student student1 = new Student() 
+            //{ 
+            //    ID = 1, 
+            //    Name ="sayed"
+            //};
+            //Student student2 = new Student()
+            //{
+            //    ID = 2,
+            //    Name = "helmy"
+            //};
+            //Student student3 = new Student()
+            //{
+            //    ID = 3,
+            //    Name = "mohamed"
+            //};
+            //Student student4 = new Student()
+            //{
+            //    ID = 4,
+            //    Name = "ali"
+            //};
+            //SortedDictionary<Student, int> student = new()
+            //{
+            //    {student1,20 },
+            //    {student2,30},
+            //    {student3,40}, 
+            //    {student4,50},
+
+
+
+            //};
+
+            //foreach (var item in student)
+            //{
+            //    Console.WriteLine(item);
+            //}
+
+            //student.TryAdd(new Student(6, "mahmoud"),60);
+            //student.TryAdd(new Student(2, "helmy"),30);
+
+            //foreach (var item in student)
+            //{
+            //    Console.WriteLine(item);
+            //}
+
+            //student.Remove(student3);
+            #endregion
 
 
 
