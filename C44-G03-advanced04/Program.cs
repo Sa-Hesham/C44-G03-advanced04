@@ -328,29 +328,60 @@ namespace C44_G03_advanced04
             #region Q12
 
             //You have a dictionary with string keys, the user will enter targetChar , count how many keys start with this targetChar.
-            Dictionary<string, int> dict = new()
-                {
-                    { "apple", 1 },
-                    { "animal", 2 },
-                    { "airport", 3 }
-                };
+            //Dictionary<string, int> dict = new()
+            //    {
+            //        { "apple", 1 },
+            //        { "animal", 2 },
+            //        { "airport", 3 }
+            //    };
 
-            Console.WriteLine("pleace  enter the char ");
-           
-            char input =  Console.ReadLine()![0];
-            int count = 0;  
+            //Console.WriteLine("pleace  enter the char ");
 
-            foreach (var c in dict.Keys) {
+            //char input =  Console.ReadLine()![0];
+            //int count = 0;  
 
-                if (c.StartsWith(input.ToString(), StringComparison.OrdinalIgnoreCase))
-                    count++;
-            
-            }
+            //foreach (var c in dict.Keys) {
 
-            Console.WriteLine(count);
+            //    if (c.StartsWith(input.ToString(), StringComparison.OrdinalIgnoreCase))
+            //        count++;
+
+            //}
+
+            //Console.WriteLine(count);
 
             #endregion
 
+
+
+
+            #region Q13
+            //You have a sorted set , the user will enter an integer target, find all elements that are greater than target and add them in the list.
+
+            //SortedSet<int> ints = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+                
+              
+
+            //List<int> greatnumber = new List<int>();
+            //Console.WriteLine("Enter target number");
+            //int.TryParse(Console.ReadLine(), out int input);
+
+            //foreach (var item in ints)
+            //{
+            //    if(item > input)
+            //    {
+            //        greatnumber.Add(item);
+            //    }
+            //}
+
+            //Console.WriteLine();
+
+            //foreach (var item in greatnumber)
+            //{
+            //    Console.WriteLine(item + " ");
+            //}
+
+
+            #endregion
 
 
 
